@@ -1,0 +1,136 @@
+.myimages img:hover {
+    /* Define your hover effect styles here */
+}
+
+.myimages .selected {
+    /* Define your selected image styles here */
+    /* For example, you can add a border or change the opacity */
+    border: 2px solid red;
+    opacity: 0.7;
+}
+
+
+/* for navbar */
+.navbar-brand img{
+    height: 90px;
+}
+
+
+
+
+.navbar{
+    background-color: rgba(3, 86, 241, 0.993);
+}
+.navbar-brand,.navbar-nav a {
+    color: white;
+}
+
+.navbar-toggler-icon {
+    background-color: white;
+}
+.row{
+    padding-top: 30px;
+    display: block;
+}
+/* .div_cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+} */
+
+.card{
+    display: inline-block;
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px rgba(0,0,0,.4);
+    margin-right: 50px;
+}
+
+
+.card .card-img-top{
+     height: 200px;
+     width: 300px;
+}
+
+
+@media (max-width:767px)
+{
+    #product-list{
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+
+
+
+@media (max-width: 574px) {
+    #product-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-left: 0;
+    }
+}
+
+
+
+@media (max-width:480px)
+{
+    .navbar-brand img{
+        height: 40px;
+    }
+    
+}
+
+
+/* for carousel */
+.types_img{
+    display: flex;
+    padding-top: 20px;
+    padding-left: 22px;
+}
+.types_img li{
+    list-style: none;
+}
+.types_img img{
+    border-radius: 10px;
+    height:400px;
+    width: 350px;
+}
+
+
+@media (max-width:640px)
+{
+    #both{
+        display: none !important; 
+     }
+     #respon{
+        display: block !important;
+
+     }
+    #product-list{
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+
+.owl-dot span{
+    background-color: gray;
+}
+.owl-dot.active span{
+    background-color: orangered !important;
+}
+
+
+.owl-dot span{
+    background-color: gray;
+}
+.owl-dot.active span{
+    background-color: orangered !important;
+}
+
