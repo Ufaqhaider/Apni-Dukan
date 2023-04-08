@@ -140,18 +140,26 @@
 
 @media (max-width:640px)
 {
-    #both{
+    #left1{
         display: none !important; 
      }
+     #left2{
+      display: none !important; 
+   }
      #respon{
         display: block !important;
 
+     }
+     #desc{
+      display: block !important;
      }
     #product-list{
        display: grid;
        grid-template-columns: 1fr 1fr;
     }
 }
+
+
 
 
 
