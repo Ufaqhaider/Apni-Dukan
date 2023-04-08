@@ -150,13 +150,14 @@
         display: block !important;
 
      }
+     #product-list{
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+   }
      #desc{
       display: block !important;
      }
-    #product-list{
-       display: grid;
-       grid-template-columns: 1fr 1fr;
-    }
+
 }
 
 
