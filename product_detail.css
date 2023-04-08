@@ -52,6 +52,10 @@
      width: 300px;
 }
 
+#desc h2{
+    font-weight: bold
+  
+}
 
 @media (max-width:767px)
 {
