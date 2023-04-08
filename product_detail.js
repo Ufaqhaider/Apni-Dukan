@@ -31,6 +31,46 @@ window.onload = () => {
         </div>
 
     </div>`;
+    
+    
+    
+let descrip=""
+for (let key in product.details) {
+  if (product.details.hasOwnProperty(key)) {
+    descrip+= "<strong>"+ key + "</strong>" + ": " + product.details[key] + "<br>";
+  }
+}
+
+desc.innerHTML=`
+<div id="details">
+  <div id="desc">
+    <h2>Description</h2>
+    <div class="underline mx-0"></div><br>
+
+    <div id="kurta_detail"><h6>${descrip}<h6></div>
+
+
+
+  <div id="other_detail">
+     <div class="mt-4">
+        <div><h5>Sizes Available*</h5></div> 
+         <div style="display: flex;">
+            <div class="newborder">XS</div>
+            <div class="newborder">S</div>
+            <div class="newborder">ML</div>
+            <div class="newborder">XL</div>
+         </div>
+        </div>          
+     <div class="mt-4"> 
+        <div><h6>Single choice( with images)*</h6></div> 
+        <div class="circle-container">
+          <div class="circle circle-1"></div>
+          <div class="circle circle-2"></div>
+          <div class="circle circle-3"></div>
+      </div>
+  </div>
+</div>
+`
 
 
     respon.innerHTML=`
