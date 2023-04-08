@@ -37,7 +37,7 @@ window.onload = () => {
 let descrip=""
 for (let key in product.details) {
   if (product.details.hasOwnProperty(key)) {
-    descrip+= "<strong>"+ key + "</strong>" + ": " + product.details[key] + "<br>" + "<br>";
+    descrip+= "<strong>"+ key + "</strong>" + ": " + product.details[key] + "<br>" +"<br>";
   }
 }
 
